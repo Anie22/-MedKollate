@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.pg-container-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 455px;
+    width: 450px;
+    background-color: rgb(20, 20, 20);
+}
+
+.pg-inner-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1px 20px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    background-color: #fff;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-section {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.symbol {
+    height: 30px;
+    margin-bottom: 8px;
+    margin-left: 55px;
+}
+
+.pg-sec {
+    margin: 0 auto;
+    margin-right: 55px;
+}
+
+.page-sec {
+    margin-bottom: 2px;
+}
+
+.let {
+    color: #6bb1c7;
+}
+
+.lead {
+    font-size: 7px;
+}
+
+.gh-ba {
+    margin-left: 190px;
+}
+
+.pg-pa {
+    margin-top: 0 auto;
+    margin-right: 120px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.led {
+    margin: 0 auto;
+    margin-bottom: 1px;
+}
+
+.lead_2 {
+    margin-top: 5px;
+}
+
+.pg-learn {
+    display: flex;
+    justify-content: end;
+    margin-top: 9px;
+    margin-bottom: 19px;
+    margin-left: 70px;
+}
+
+.pg-link,
+.link_2,
+.link {
+    text-decoration: none;
+}
+
+.pg-link {
+    color: #84cdc6;
+}
+
+.pg-img {
+    margin-bottom: 3px;
+}
+
+.pg-smart {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 13px;
+}
+
+.pg-start {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 45px;
+    margin-bottom: 46px;
+}
+
+.link {
+    margin-right: 22px;
+    background-color: #47e7d7;
+    padding: 2px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.link_2 {
+    margin-left: 30px;
+    background-color: #fff;
+    color: #47e7d7;
+    cursor: pointer;
+    padding: 2px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    border: 1px #a1c9c5 solid;
+}
